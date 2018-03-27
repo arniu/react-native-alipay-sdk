@@ -1,0 +1,49 @@
+{
+  "name": "react-native-alipay-sdk",
+  "version": "1.0.0-alpha",
+  "description": "Alipay SDK for React Native",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "lint-staged",
+    "lint": "prettier --write '**/*.{js,ts,md}'; standard --fix"
+  },
+  "lint-staged": {
+    "*.{ts,md}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.js": [
+      "prettier --write",
+      "standard --fix",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fanqfanh/react-native-alipay-sdk.git"
+  },
+  "keywords": [
+    "react-native",
+    "payment",
+    "alipay"
+  ],
+  "author": "Fanqh Team",
+  "license": "MIT",
+  "homepage": "https://github.com/fanqfanh/react-native-alipay-sdk#readme",
+  "bugs": {
+    "url": "https://github.com/fanqfanh/react-native-alipay-sdk/issues"
+  },
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^7.0.0",
+    "prettier": "^1.11.1",
+    "standard": "^11.0.1"
+  }
+}
