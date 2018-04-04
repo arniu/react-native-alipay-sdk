@@ -1,5 +1,7 @@
 # react-native-alipay-sdk
 
+forked from m2mbob's `react-native-yunpeng-alipay`, all credits go to him<2844870322@qq.com>
+
 ## Getting started
 
 `$ npm install react-native-alipay-sdk --save`
@@ -41,6 +43,13 @@ import AlipaySdk from 'react-native-alipay-sdk'
 
 // TODO: What to do with the module?
 // AlipaySdk
+```javascript
+Alipay.pay("signed pay info string").then(function(data){
+                    console.log(data);
+                }, function (err) {
+                    console.log(err);
+                });
+
 ```
 
 ## License
