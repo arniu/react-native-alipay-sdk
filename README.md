@@ -38,16 +38,20 @@ forked from m2mbob's `react-native-yunpeng-alipay`, all credits go to him(<mailt
 
 ## Usage
 
-````javascript
+```javascript
 import AlipaySdk from 'react-native-alipay-sdk'
 
-```javascript
-AlipaySdk.pay("signed pay info string").then(function(data){
-                    console.log(data);
-                }, function (err) {
-                    console.log(err);
-                });
-````
+//your stuff
+
+AlipaySdk.pay('signed pay info string').then(
+  function(data) {
+    console.log(data)
+  },
+  function(err) {
+    console.log(err)
+  }
+)
+```
 
 ## License
 
