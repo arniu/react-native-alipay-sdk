@@ -1,5 +1,7 @@
 # react-native-alipay-sdk
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/arniu/react-native-alipay-sdk.svg)](https://greenkeeper.io/)
+
 forked from m2mbob's `react-native-yunpeng-alipay`, all credits go to him(<mailto:2844870322@qq.com>)
 
 ## Getting started
